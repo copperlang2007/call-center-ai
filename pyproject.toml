@@ -28,6 +28,7 @@ dependencies = [
   "json-repair~=0.30",                                   # Repair JSON files from LLM
   "mistune~=3.0",                                        # Markdown parser for web views
   "noisereduce~=3.0",                                    # Noise reduction
+  "pandas~=2.2",                                         # Data analysis library, used by commission engine
   "opentelemetry-instrumentation-aiohttp-client~=0.0a0", # OpenTelemetry instrumentation for aiohttp client
   "opentelemetry-instrumentation-redis~=0.0a0",          # OpenTelemetry instrumentation for Redis
   "opentelemetry-semantic-conventions~=0.0a0",           # OpenTelemetry conventions, to standardize telemetry data
